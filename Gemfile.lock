@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    interactor (3.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  interactor
+
+BUNDLED WITH
+   1.16.1

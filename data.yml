@@ -1,0 +1,25 @@
+starting_planet:
+  population_level: 6
+  zone_type: false
+  tech_level: 12
+  starport_level: B
+  discretionary_passenger_modifier: 0
+  discretionary_freight_modifier: 0
+
+destination_planet:
+  parsecs_away: 1
+
+ship_statistics:
+  highest_steward: 0
+  highest_naval: 0
+  highest_social: 1
+  ship_is_armed: false
+  staterooms: 10
+  low_berths: 20
+  tonnage: 82
+
+# Make sure you include your characteristic modifiers in these rolls
+seeker_statistics:
+  broker: -2
+  carouse: 5
+  streetwise: 2
