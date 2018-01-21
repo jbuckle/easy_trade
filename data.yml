@@ -1,4 +1,4 @@
-starting_planet:
+origin:
   population_level: 6
   zone_type: false
   tech_level: 12
@@ -6,10 +6,10 @@ starting_planet:
   discretionary_passenger_modifier: 0
   discretionary_freight_modifier: 0
 
-destination_planet:
+destination:
   parsecs_away: 1
 
-ship_statistics:
+ship:
   highest_steward: 0
   highest_naval: 0
   highest_social: 1
@@ -23,3 +23,5 @@ seeker_statistics:
   broker: -2
   carouse: 5
   streetwise: 2
+
+log_level: 0
