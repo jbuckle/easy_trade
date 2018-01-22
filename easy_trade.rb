@@ -1,6 +1,9 @@
 require 'yaml'
 require 'logger'
+
 require './easy_trade/configuration.rb'
+require './easy_trade/utils.rb'
+require './easy_trade/roll.rb'
 
 # Modifiers
 require './easy_trade/modifiers'

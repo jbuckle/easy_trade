@@ -4,7 +4,9 @@ module EasyTrade
     base_modifiers :zone_modifier, :starport_modifier, :pop_modifier, :steward_modifier
 
     def self.generate
-      self.new.generate
+      modifiers = self.new
+      modifiers.generate
+      return modifiers
     end
 
     def generate

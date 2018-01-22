@@ -3,8 +3,9 @@ origin:
   zone_type: false
   tech_level: 12
   starport_level: B
-  discretionary_passenger_modifier: 0
-  discretionary_freight_modifier: 0
+
+discretionary_passenger_modifier: 0
+discretionary_freight_modifier: 0
 
 destination:
   parsecs_away: 1
