@@ -27,6 +27,7 @@ module EasyTrade
     passenger_availability = EasyTrade::GeneratePassengers.generate
     # freight_availability = EasyTrade::GenerateFreight.call(config: config)
     # mail_availability = EasyTrade::GenerateMail.call(config: config)
+
     binding.pry
   end
 end

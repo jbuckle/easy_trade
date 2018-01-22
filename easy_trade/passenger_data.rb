@@ -42,7 +42,7 @@ module EasyTrade
                tonnage_per: 0.01,
                stateroom_per: 0,
                steward_per: 0,
-               low_berth_per: 0,
+               low_berth_per: 1,
                monthly_cost_per: 100 }
       self
     end
