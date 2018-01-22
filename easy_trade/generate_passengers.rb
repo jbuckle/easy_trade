@@ -9,13 +9,19 @@ module EasyTrade
     def generate
       @situational_modifiers = PassengerModifiers.generate
       @discretionary_modifier = config.discretionary_passenger_modifier
+      @results = PassengerData.new
 
       high_passage_count = passenger_count(:high)
       middle_passage_count = passenger_count(:middle)
       basic_passage_count = passenger_count(:basic)
       low_passage_count = passenger_count(:low)
 
-      binding.pry
+      return PassengerData.new(
+        high: high_passage_count,
+        middle: middle_passage_count,
+        basic: basic_passage_count,
+        low: low_passage_count,
+      )
     end
 
     private

@@ -9,10 +9,11 @@ discretionary_freight_modifier: 0
 
 destination:
   parsecs_away: 1
+  months_travelled: 1
 
 ship:
   highest_steward: 0
-  highest_naval: 0
+  highest_naval: 3
   highest_social: 1
   ship_is_armed: false
   staterooms: 10
