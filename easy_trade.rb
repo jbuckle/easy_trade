@@ -17,6 +17,7 @@ require './easy_trade/generate_mail.rb'
 
 # Data Objects
 require './easy_trade/passenger_data.rb'
+require './easy_trade/freight_data.rb'
 
 EasyTrade::Configuration.init(YAML.load_file('./data.yml'))
 

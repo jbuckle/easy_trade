@@ -22,14 +22,14 @@ module EasyTrade
       total = 0
 
       number_of_die.times { total += Random.rand(1..6) }
-      logger.debug("Rolled #{number_of_die} dice and got #{total} - #{roll_message}")
+      logger.debug("Rolled #{number_of_die} dice and got #{total} - #{roll_message}") if roll_message
 
       total
     end
 
     def skill_check(dm, roll_message = '')
       value = Random.rand(1..6) + Random.rand(1..6) + dm
-      logger.debug("Rolled a #{value} - #{roll_message}")
+      logger.debug("Rolled a #{value} - #{roll_message}") if roll_message
       value
     end
 
