@@ -8,6 +8,7 @@ require './easy_trade/roll.rb'
 # Modifiers
 require './easy_trade/modifiers'
 require './easy_trade/passenger_modifiers'
+require './easy_trade/freight_modifiers'
 
 # Availability Generation
 require './easy_trade/generate_passengers.rb'
@@ -27,7 +28,5 @@ module EasyTrade
     passenger_availability = EasyTrade::GeneratePassengers.generate
     # freight_availability = EasyTrade::GenerateFreight.call(config: config)
     # mail_availability = EasyTrade::GenerateMail.call(config: config)
-
-    binding.pry
   end
 end
