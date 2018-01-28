@@ -6,6 +6,7 @@ origin:
 
 discretionary_passenger_modifier: 0
 discretionary_freight_modifier: 0
+discretionary_mail_modifier: 0
 
 destination:
   parsecs_away: 1
@@ -14,8 +15,9 @@ destination:
 ship:
   highest_steward: 0
   highest_naval: 3
+  highest_scout: 0
   highest_social: 1
-  ship_is_armed: false
+  is_armed: false
   staterooms: 10
   low_berths: 20
   tonnage: 82
